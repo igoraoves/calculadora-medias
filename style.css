@@ -1,0 +1,40 @@
+body{
+  background: #b63834;
+  color: bisque;
+  margin: auto;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1{
+  padding-top: 70px;
+}
+div {
+  background-color:rgba(46, 77, 160, 0.801);
+  width: 400px;
+  height: 350px;
+  margin: auto;
+  border-style: solid;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.404);
+
+}
+.p1 {
+  padding-top: 20px;
+}
+
+input {
+  width: 50px;
+  background: bisque;
+  border: none;
+}
+input[type=number]::-webkit-inner-spin-button { 
+  -webkit-appearance: none;
+}
+
+#botao{
+  width: 80px;
+  padding: 10px;
+  margin-top: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
